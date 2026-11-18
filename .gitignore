@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Large media — keep out of git (host on CDN / add locally)
+*.mp4
+*.mov
+*.webm
+src/assets/Images/herovideo*.mp4
+
+.DS_Store
+**/.DS_Store
